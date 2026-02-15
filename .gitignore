@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Python
+__pycache__/
+*.pyc
+.Python
+venv/
+*.egg-info/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
