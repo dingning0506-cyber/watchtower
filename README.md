@@ -1,8 +1,21 @@
-# watchtower# 1. 进入项目目录
-cd watchtower-github
+# Watchtower Personal Information Monitoring Application
 
-# 2. 添加执行权限
-chmod +x upload_to_github.sh
+## Features
+- Real-time monitoring of personal information.
+- Alerts for any unauthorized access to data.
+- User-friendly interface with detailed reports.
 
-# 3. 运行脚本
-./upload_to_github.sh
+## Tech Stack
+- Frontend: React, Redux
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Deployment: Docker, AWS
+
+## Project Structure
+```
+watchtower/
+├── client/          # Frontend application
+├── server/          # Backend API
+├── docker/          # Docker configurations
+└── README.md        # Project documentation
+```
